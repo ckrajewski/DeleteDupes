@@ -1,0 +1,6 @@
+<?xml version ="1.0" encoding= "UTF-8" ?>
+	<Settings>
+		<![CDATA[Must Use Full Pathnames]]>
+		<DirectoryToScan>C:\Users\Chris\Documents</DirectoryToScan>
+		<DirectoryToStoreDupes> </DirectoryToStoreDupes>
+	</Settings>
