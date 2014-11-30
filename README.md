@@ -44,7 +44,7 @@ Example:
 
 **-priority**
 
-priority determines how the original file is found. The default value is lmd. lmd stands for Las tModified Date. The file with the oldest last modified date becomes the original file. Can be changed to cd ( Created Date ). Then the file with the oldest created date becomes the original
+priority determines how the original file is found. The default value is lmd. lmd stands for Last Modified Date. The file with the oldest last modified date becomes the original file. Can be changed to cd ( Created Date ). Then the file with the oldest created date becomes the original
 
 Values:
 
@@ -68,4 +68,4 @@ Upcoming Enhancements:
 
 * Scan through subdirectories.
 * Allow priority and reverse values to be set in the config.xml file.
-* Support additional measures of verification other than just the MD5 checksum. For example, a user may have purposefully downloaded the same file twice, but renamed it with the intent of keeping both files. An additional parameter can be passed in that compares names so that if they are too similar (i.e. File.txt and File(1).txt) then they are deemed dupes (provided they have the same checksum of course). However, if they were named File.txt and PurposefullyCopiedAgain.txt, their names would be different enough that Delete Dupes would mark then as dupes.
+* Support additional measures of verification other than just the MD5 checksum. For example, a user may have purposefully downloaded the same file twice, but renamed it with the intent of keeping both files. An additional parameter can be passed in that compares names so that if they are too similar (i.e. File.txt and File(1).txt) then they are deemed dupes (provided they have the same checksum of course). However, if they were named File.txt and PurposefullyCopiedAgain.txt, their names would be different enough that Delete Dupes would not mark them as dupes.
